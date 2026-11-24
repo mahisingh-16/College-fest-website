@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetheris 2027 | Delegate Registration</title>
+</head>
+<body>
+
+    <nav>
+        <b>AETHERIS '27</b>   ||  
+        <a href="index.html">Overview</a> •
+        <a href="events.html">Competitions</a> •
+        <a href="schedule.html">Timeline</a> •
+        <a href="register.html">Enroll Now</a> •
+        <a href="contact.html">Helpdesk</a>
+    </nav>
+
+    <hr>
+
+    <header>
+        <h1>Delegate Enrollment Portal</h1>
+        <p>Fill out the form below to generate your participant pass.</p>
+    </header>
+
+    <main>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend><b>Personal & Academic Details</b></legend>
+
+                <label for="pname">Full Name:</label><br>
+                <input type="text" id="pname" name="participant_name" placeholder="e.g. Aarav Sharma" required>
+                <br><br>
+
+                <label for="pemail">College / Personal Email:</label><br>
+                <input type="email" id="pemail" name="participant_email" placeholder="e.g. aarav@college.edu" required>
+                <br><br>
+
+                <label for="pphone">WhatsApp Number:</label><br>
+                <input type="tel" id="pphone" name="participant_phone" placeholder="+91 98XXXXXXXX" required>
+                <br><br>
+
+                <label for="pdept">Department / Stream:</label><br>
+                <select id="pdept" name="department" required>
+                    <option value="">-- Select Department --</option>
+                    <option value="cse">Computer Science & Engineering</option>
+                    <option value="aiml">AI & Machine Learning</option>
+                    <option value="ece">Electronics & Communication</option>
+                    <option value="mech">Mechanical & Mechatronics</option>
+                    <option value="bca">BCA / MCA</option>
+                </select>
+                <br><br>
+
+                <label for="pyear">Current Year of Study:</label><br>
+                <select id="pyear" name="study_year" required>
+                    <option value="">-- Choose Year --</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+                <br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Prefer not to say</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Event Selection</b></legend>
+
+                <label>Choose Tracks You Want to Enter:</label><br>
+                <input type="checkbox" id="t1" name="tracks" value="Promptathon">
+                <label for="t1">Neural Prompt-a-Thon</label><br>
+
+                <input type="checkbox" id="t2" name="tracks" value="MazeRunner">
+                <label for="t2">Autonomous Maze Runner</label><br>
+
+                <input type="checkbox" id="t3" name="tracks" value="CTF">
+                <label for="t3">Zero-Day Capture The Flag</label><br>
+
+                <input type="checkbox" id="t4" name="tracks" value="Esports">
+                <label for="t4">BGMI / CODM Tactical Cup</label><br>
+
+                <input type="checkbox" id="t5" name="tracks" value="Prototyping">
+                <label for="t5">24-Hour Rapid Prototyping</label>
+                <br><br>
+
+                <label for="pitch">Briefly describe your past tech project or team experience:</label><br>
+                <textarea id="pitch" name="experience" rows="4" cols="48" placeholder="Write a short note here..."></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Fields">
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>©️ 2027 Aetheris Conclave Committee. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
